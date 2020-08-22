@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">msh-client</string>
+    <string name="cmd_result">OUTPUT: %1$s RESULT: %2$s</string>
+    <string name="scan_result">FOUND: %1$s NEW: %2$s UPDATE: %3$s</string>
+    <string name="msh">MSH</string>
+    <string name="device">DEVICE</string>
+    <string name="command">COMMAND</string>
+    <string name="esegui">ESEGUI</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="scansiona">SCANSIONA</string>
+</resources>

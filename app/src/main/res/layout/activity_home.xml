@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        tools:ignore="NestedWeights" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+        android:weightSum="1"
+        tools:ignore="NestedWeights">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.05"
+            android:text="@string/device">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/device"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.05"
+            android:text="@string/command">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/command"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:id="@+id/exec"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.2"
+            android:text="@string/esegui" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.2"
+            android:text="@string/scansiona" />
+
+        <TextView
+            android:id="@+id/result_scan"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        tools:ignore="NestedWeights" />
+
+</LinearLayout>
